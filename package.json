@@ -1,0 +1,20 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Aplicativo projeto integrador",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx nodemon app.js"
+  },
+  "author": "Welber e Gustavo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "pg-promise": "^11.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
